@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <Header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+    </Header>
+    <main>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        <form action="" id="survey-form">
+            <p>Please help us by filling out the form below:</p>
+            <label id="name-label" for="namel">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label id="number-label" for="number">Age</label>
+            <input type="number" id="number" min="10" max="120" placeholder="Age" required>
+            <label for="liked-content">Do you like coding?</label>
+            <select id="dropdown">
+                <option id="liked-content" value="Select one">Select</option>
+                <option value="Yes, please">Yes, please</option>
+                <option value="No, thank you">No, thank you</option>
+                <option value="Maybe later">Maybe later</option>
+            </select>
+            <p>Was this information helpful?</p>
+            <input id="answer1" type="radio" name="answer" value="Yes">
+            <label for="answer1">Yes</label>
+            <input id="answer2" type="radio" name="answer" value="No">
+            <label for="answer2">No</label>
+            <p>How likely are you to recommend this page:</p>
+            <label for="likely">Very likely</label>
+            <input type="checkbox" value="5">5
+            <input type="checkbox" value="4">4
+            <input type="checkbox" value="3">3
+            <input type="checkbox" value="2">2
+            <input type="checkbox" value="1">1
+            <label for="unlikely">Not likely</label>
+            <p>Please let us know if you have any comments below:</p>
+            <textarea name="comments" id="extra-comments" cols="35" rows="10"
+                placeholder="e.g. How do I ..."></textarea>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
