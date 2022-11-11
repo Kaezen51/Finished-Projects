@@ -23,7 +23,7 @@ html, body {
     font-weight: thin;
   }
   #main-doc {
-    tex-align: left;
+    text-align: left;
     margin: 0;
   }
   #navbar ul {
@@ -73,7 +73,7 @@ html, body {
     margin: 10px;
     border-radius: 5px;
   }
-  @media and screen (max-width: 815px) {
+  @media (max-width: 815px) {
     #navbar {
       border: 1px solid;
       height: 207px;
@@ -96,7 +96,7 @@ html, body {
       margin-top: 0;
     }
   }
-  @media only screen (max-width: 400px) {
+  @media (max-width: 400px) {
     #main-doc {
       margin-left: -10px;
     }
