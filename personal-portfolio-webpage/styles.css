@@ -5,6 +5,7 @@
     --main-blue: #45567d;
     --main-gray: #303841;
 }
+
 /* The style below will set the size of boxes all together 
     with padding and margin included (if specified).*/
 * {
@@ -12,6 +13,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* Setting the entire document's font, box sizing, and scrolling for 
     better accessability. */
 html {
@@ -110,11 +112,13 @@ h1 {
 h2 {
     text-decoration: underline;
 }
+
 #about {
     height: 100%;
     width: 100%;
     background-color: var(--main-blue);
 }
+
 #about>p {
     text-align: center;
 }
